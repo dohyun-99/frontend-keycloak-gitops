@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: ghcr.io/dohyun-99/vue_crud_security_keycloak_test:v1
+        image: ghcr.io/dohyun-99/vue_crud_security_keycloak_test:v2
         imagePullPolicy: Always
         env:
         - name: BACKEND_API_URL
