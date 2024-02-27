@@ -3,7 +3,7 @@ kind: Kustomization
 resources:
 - service.yaml
 - deployment.yaml
-- ingress.yaml
+# - ingress.yaml
 images:
 - name: ghcr.io/dohyun-99/vue_crud_security_keycloak_test
   newTag: "20240221084233"
